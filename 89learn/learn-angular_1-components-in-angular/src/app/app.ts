@@ -3,12 +3,17 @@ import {Component} from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    Hello
-  `,
+  Hello Universe
+`
+  ,
+  
   styles: `
     :host {
-      color: blue;
+      color: #a144eb;
     }
   `,
 })
 export class App {}
+
+
+
